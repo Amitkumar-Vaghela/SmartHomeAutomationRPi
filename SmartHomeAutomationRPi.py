@@ -16,11 +16,11 @@ try:
     while True:
         if GPIO.input(motion_sensor_pin):
             print("Motion detected!")
-            GPIO.output(led_pin, GPIO.HIGH)  # Turn on the LED
-            time.sleep(1)  # Keep the LED on for 1 second
+            GPIO.output(led_pin, GPIO.HIGH)  
+            time.sleep(1)
         else:
-            GPIO.output(led_pin, GPIO.LOW)  # Turn off the LED
-            time.sleep(0.1)  # Poll the motion sensor every 0.1 second
+            GPIO.output(led_pin, GPIO.LOW) 
+            time.sleep(0.1) 
 
 except KeyboardInterrupt:
-    GPIO.cleanup()  # Clean up GPIO pins on exit
+    GPIO.cleanup() 
