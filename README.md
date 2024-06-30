@@ -1,4 +1,4 @@
-## Project Name/
+## SmartHomeAutomationRPi /
 
 ## app/
   __init__.py
@@ -9,14 +9,21 @@
    motion_detector.py 
 
 ## templates/
-index.html 
-static/
-css/
-style.css  
-js/
+  index.html 
+
+## static/
+
+## css/
+  style.css  
+ 
+## js/
 script.js 
-images/
+
+## images/
 favicon.ico  
-requirements.txt  
-config.py  
-README.md  
+
+## requirements.txt  
+
+## config.py  
+
+## README.md  
