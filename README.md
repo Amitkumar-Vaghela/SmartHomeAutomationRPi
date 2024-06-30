@@ -1,7 +1,6 @@
 ## SmartHomeAutomationRPi /
 
 
-# Motion Detector Project
 ## app/
   __init__.py
    app.py 
